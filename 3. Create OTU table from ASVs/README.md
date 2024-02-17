@@ -13,7 +13,7 @@
 - vsearch can be executed in conda: [https://github.com/torognes/vsearch](https://github.com/torognes/vsearch)
 - Inputs are ASV table and taxonomy table
 
-### 3.1. Preparing ASV table for LULU and vsearch
+## 3.1. Preparing ASV table for LULU and vsearch
 
 - The R code `LULU_ASVs.R` embeds sequence/sample information in the data so that the fasta file can be made back into the original ASV table (with abundances and sample info preserved)
 - Then finish out the rest of the script in terminal in the `lulu_vsearch` folder. The final output will be `concat.fasta`, which will be used in downstream analysis (vsearch)
