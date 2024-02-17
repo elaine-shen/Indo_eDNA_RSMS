@@ -12,7 +12,7 @@
 
 ### 1.1.0 Initial folder organization
 
-```r
+```bash
 cd /Users/elaineshen/Desktop/cox1_raw/EB101-194/
 ```
 
@@ -25,14 +25,14 @@ cd /Users/elaineshen/Desktop/cox1_raw/EB101-194/
     - The output will be in the folder `Trimmomatic-0.39`
 - The general structure of the Trimmomatic code is as follows:
 
-```r
+```bash
 java -jar <path to trimmomatic.jar> PE [-threads <threads] [-phred33 | -phred64] [-trimlog <logFile>] <input 1> <input 2> <paired output 1> <unpaired output 1> <paired output 2> <unpaired output 2> <step 1>
 ```
 
 - Execute a for-loop for Trimmomatic while in the `raw` folder (outputs will be in the `Trimmomatic-0.39`) folder
     - On command line, the intermediate outputs will not be legible
 
-```r
+```bash
 for i in *_R1.fastq.gz
 do
   SAMPLE=$(echo ${i} | sed "s/_R1.fastq\.gz//") 
@@ -43,7 +43,7 @@ done
 
 - Move unpaired reads into their own folder
 
-```r
+```bash
 # In trimmomatic_output
 mv *unpaired* unpaired
 ```
@@ -56,7 +56,7 @@ mv *unpaired* unpaired
 - The first for-loop makes a MultiQC for individual samples
 - The second makes a summary MultiQC file for all of the samples and allows you to scroll interactively in a .html file
 
-```r
+```bash
 cd FastQC
 
 for file in /Users/elaineshen/Desktop/cox1_raw/EB101-194/Trimmomatic-0.39/trimmomatic_output/*.fastq.gz
@@ -65,9 +65,10 @@ do
 done
 ```
 
-```r
+```bash
 cd trimmomatic_output
-
+```
+```bash
 multiqc . --interactive
 ```
 
@@ -75,16 +76,17 @@ multiqc . --interactive
 
 - Download cutadapt here using conda: [https://cutadapt.readthedocs.io/en/stable/installation.html](https://cutadapt.readthedocs.io/en/stable/installation.html) and put `cutadapt` folder into `EB101-194` folder
 
-```r
+```bash
 conda activate cutadapt
-
+```
+```bash
 cd trimmomatic_output
 ```
 
 - Because we have paired-end sequences, we need to remove the reverse complement of the primers for the reverse sequences as well
 - For more information, see: [https://cutadapt.readthedocs.io/en/stable/guide.html#trimming-paired-end-reads](https://cutadapt.readthedocs.io/en/stable/guide.html#trimming-paired-end-reads)
 
-```r
+```bash
 for i in *_R1.fastq.gz
 do
   SAMPLE=$(echo ${i} | sed "s/_R1.fastq\.gz//") 
@@ -99,7 +101,7 @@ done
 
 ### 1.2.0 Initial file organization
 
-```r
+```bash
 cd /Users/elaineshen/Desktop/cox1_raw/EB801-939
 ```
 
@@ -112,7 +114,7 @@ cd /Users/elaineshen/Desktop/cox1_raw/EB801-939
 
 - Because the input file naming convention is slightly different, the above for-loop was modified:
 
-```r
+```bash
 for i in *_R1_001.fastq.gz
 do
   SAMPLE=$(echo ${i} | sed "s/_R1_\001\.fastq\.gz//") 
@@ -127,13 +129,14 @@ done
 
 - Make a directory in `EB801-939` called `cutadapt_output`where the output files are stored
 
-```r
+```bash
 conda activate cutadapt
-
+```
+```bash
 cd trimmomatic_output
 ```
 
-```r
+```bash
 for i in *_R1.fastq.gz
 do
   SAMPLE=$(echo ${i} | sed "s/_R1.fastq\.gz//") 
