@@ -18,7 +18,7 @@
 - The R code `LULU_ASVs.R` embeds sequence/sample information in the data so that the fasta file can be made back into the original ASV table (with abundances and sample info preserved)
 - Then finish out the rest of the script in terminal in the `lulu_vsearch` folder. The final output will be `concat.fasta`, which will be used in downstream analysis (vsearch)
 
-```r
+```bash
 cat DADA2_extracted_samples/*.fas > DADA2_extracted_samples/concat.fasta
 ```
 
@@ -26,57 +26,57 @@ cat DADA2_extracted_samples/*.fas > DADA2_extracted_samples/concat.fasta
 
 - Dereplicate
 
-```r
+```bash
 vsearch --derep_fulllength DADA2_extracted_samples/concat.fasta --sizein --sizeout --fasta_width 0 --minuniquesize 1 --output combined_derep_vsearch.fasta
 ```
 
 - Get rid of extra semicolon added by VSearch
 
-```r
+```bash
 sed -i -E "s/;.+;/;/g" combined_derep_vsearch.fasta
 ```
 
 - Sort by size
 
-```r
+```bash
 # Sort by size
 vsearch --sortbysize combined_derep_vsearch.fasta --sizein --sizeout --output combined_derep_sorted_vsearch.fasta --fasta_width 0
 ```
 
 - VSEARCH chimera checking
 
-```r
+```bash
 vsearch --uchime_denovo combined_derep_sorted_vsearch.fasta --sizein --sizeout --qmask none --nonchimeras combined_derep_sorted_chimera.fasta 
 ```
 
 - VSEARCH clustering at 97%
 
-```r
+```bash
 # VSEARCH clustering
 vsearch --cluster_size combined_derep_sorted_chimera.fasta --id 0.97 --sizein --centroids vsearch_otus_97.fasta --qmask none
 ```
 
-```r
+```bash
 sed -i -E "s/;size=.*//g" vsearch_otus_97.fasta
 ```
 
 - Map against original fasta file
 
-```r
+```bash
 # Map raw reads against OTU representatives concat.fasta is from LULU_prep.sh, which should be run before this.
 vsearch --usearch_global DADA2_extracted_samples/concat.fasta --db vsearch_otus_97.fasta --id 0.97 --maxaccepts 0 --dbmask none --qmask none --uc FINAL_FOR_LULU.uc
 ```
 
 - Convert from UC format to OTU table format
 
-```r
+```bash
 # Then convert UC format to OTU table format with uc2otutab.py
 python drive5_py/uc2otutab.py FINAL_FOR_LULU.uc > FINAL_FOR_LULU_otutab.txt
 ```
 
 - Before running this code, which was built in Python 2, you need to change the syntax to Python 3 using the command `2to3`, which is already built in on the command line. Do this for the entire folder `drive5_py`
 
-```r
+```bash
 2to3 -w drive5_py/*.py
 ```
 
@@ -88,7 +88,7 @@ python drive5_py/uc2otutab.py FINAL_FOR_LULU.uc > FINAL_FOR_LULU_otutab.txt
 - Input file: `FINAL_FOR_LULU_otutab.txt`
 - Make matchlist for OTUs
 
-```r
+```bash
 vsearch --usearch_global vsearch_otus_97.fasta --db vsearch_otus_97.fasta --self --id .84 --iddef 1 --userout match_list.txt -userfields query+target+id --maxaccepts 0 --query_cov .9 --maxhits 10
 ```
 
