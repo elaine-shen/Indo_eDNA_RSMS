@@ -7,7 +7,7 @@
     - Citation: Porter, T.M., & Hajibabaei, M. (2018) Automated high throughput animal CO1 metabarcode classification. Scientific Reports, 8, 4226.
 - Used this taxonomic assignment algorithm: Wang et al. (2007) Naïve Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Applied and Environmental Microbiology, 73: 5261.
     - Installed using conda
-```r
+```bash
 ############ Install the RDP classifier if you need it
 # The easiest way to install the RDP classifier v2.13 is using conda - I used this
 conda install -c bioconda rdp_classifier
@@ -40,22 +40,25 @@ rdp_classifier -Xmx8g classify -t /Users/elaineshen/Desktop/cox1_raw/combined/da
 
 - Need to create a new conda environment to install this, because it requires python 2.7
 
-```r
+```bash
 conda create -n basta-env python=2.7
+```
+```bash
 conda activate basta-env
-
+```
+```bash
 conda install -c bioconda -c bnoon -c timkahlke basta
 ```
 
 - Test to see if installation worked
 
-```r
+```bash
 python -m unittest discover basta
 ```
 
 ### 4.2.1 Download and create NCBI taxonomy
 
-```r
+```bash
 basta taxonomy
 ```
 
@@ -63,7 +66,7 @@ basta taxonomy
 
 - Downloading gb - genbank-to-taxonID mapping file (for most nucleotide databases)
 
-```r
+```bash
 basta download gb
 ```
 
@@ -71,13 +74,13 @@ basta download gb
 
 - Sample code:
 
-```r
+```bash
 ./bin/basta sequence INPUT_FILE OUTPUT_FILE MAPPING_FILE_TYPE
 ```
 
 - My code:
 
-```r
+```bash
 basta sequence /Users/elaineshen/Desktop/cox1_raw/combined/iterative_blast/ib_output/test_seqs_0/blasted_20210510_0809_e1e-50.txt  blasted_20210510_0809_e1e-50_basta.out gb
 ```
 
@@ -85,7 +88,7 @@ basta sequence /Users/elaineshen/Desktop/cox1_raw/combined/iterative_blast/ib_ou
 
 - Concatenate all the output from `ib_output` folder
 
-```r
+```bash
 cat test_seqs_*/*.txt > all_output.txt
 ```
 
@@ -95,11 +98,11 @@ cat test_seqs_*/*.txt > all_output.txt
     - -p : the default is 100% (which means it will return taxonomy that is shared by 100% of hits). We changed this to 80% to be less conservative (this gets at reasonable - aka occurring in the Indo-Pacific - taxonomic assignments)
     - -i: identity, the default is 80 but I will change to 97% to be consistent with other taxonomic identity.
 
-```r
+```bash
 conda activate basta-env
 ```
 
-```r
+```bash
 basta sequence /Users/elaineshen/Desktop/cox1_raw/combined/iterative_blast/ib_output/all_output.txt  all_blast_basta.txt gb -i 97 -p 80 
 ```
 
