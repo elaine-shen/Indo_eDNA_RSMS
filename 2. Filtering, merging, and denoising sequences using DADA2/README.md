@@ -8,7 +8,7 @@
     - Specifically, the truncation lengths and parameters for `filterAndTrim()` are different between EB101-194 and EB801-939 since the qualie runs (and subsequently, sequences) varied slightly
 - For EB100-194 samples, the following params were used for `filterAndTrim()`:
 
-```jsx
+```r
 out = filterAndTrim(fwd=file.path(pathF, fastqFs), filt=file.path(filtpathF, fastqFs),
                     rev=file.path(pathR, fastqRs), filt.rev=file.path(filtpathR, fastqRs),
                     truncLen=c(190,135), trimRight=c(0,13), rm.phix=TRUE,
@@ -17,7 +17,7 @@ out = filterAndTrim(fwd=file.path(pathF, fastqFs), filt=file.path(filtpathF, fas
 
 - For EB801-939 samples, the following params were used for `filterAndTrim()`:
 
-```jsx
+```r
 out = filterAndTrim(fwd=file.path(pathF, fastqFs), filt=file.path(filtpathF, fastqFs),
                     rev=file.path(pathR, fastqRs), filt.rev=file.path(filtpathR, fastqRs),
                     truncLen=c(190,140), trimRight=c(0,5), rm.phix=TRUE,
