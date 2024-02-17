@@ -1,0 +1,155 @@
+sampleID	region	sample	site_name	site_code	region_code	sampleType	filter	primer	runSize
+EB101	Waigeo	WGO_10	Arborek	ARBO	WG_ARBO	water	12um	cox1	2x250
+EB102	Waigeo	WGO_11	Ruvas	RUVA	WG_RUVA	water	0.4um	cox1	2x250
+EB103	Waigeo	WGO_11	Ruvas	RUVA	WG_RUVA	water	12um	cox1	2x250
+EB104	Waigeo	WGO_11	Ruvas	RUVA	WG_RUVA	sediment	0.4um	cox1	2x250
+EB105	Waigeo	WGO_12	Piaynemo	PIAY	WG_PIAY	water	0.4um	cox1	2x250
+EB106	Waigeo	WGO_13	Paniki Besar Island	PANI	WG_PANI	water	0.4um	cox1	2x250
+EB107	Waigeo	WGO_16	Yansawai	YANS	WG_YANS	water	12um	cox1	2x250
+EB108	Waigeo	WGO_17	Arefi	AREF	WG_AREF	water	12um	cox1	2x250
+EB109	Waigeo	WGO_18	Saonek	SAON	WG_SAON	water	0.4um	cox1	2x250
+EB110	Waigeo	WGO_02	Yenbuba	YEBB	WG_YEBB	water	0.4um	cox1	2x250
+EB111	Waigeo	WGO_02	Yenbuba	YEBB	WG_YEBB	sediment	0.4um	cox1	2x250
+EB112	Waigeo	WGO_03	Yenwapnor	YENW	WG_YENW	water	0.4um	cox1	2x250
+EB113	Waigeo	WGO_03	Yenwapnor	YENW	WG_YENW	sediment	0.4um	cox1	2x250
+EB114	Waigeo	WGO_04	Friwen	FRIN	WG_FRIN	water	0.4um	cox1	2x250
+EB115	Waigeo	WGO_04	Friwen	FRIN	WG_FRIN	sediment	0.4um	cox1	2x250
+EB116	Waigeo	WGO_05	Yenbuba 1	YEB1	WG_YEB1	sediment	0.4um	cox1	2x250
+EB117	Waigeo	WGO_07	Friwen Wall	FRIW	WG_FRIW	sediment	0.4um	cox1	2x250
+EB118	Waigeo	WGO_08	Yenbeser	YENB	WG_YENB	water	0.4um	cox1	2x250
+EB119	Waigeo	WGO_08	Yenbeser	YENB	WG_YENB	sediment	0.4um	cox1	2x250
+EB120	Waigeo	WGO_09	Cape Kri	CKRI	WG_CKRI	water	0.4um	cox1	2x250
+EB121	Waigeo	WGO_09	Cape Kri	CKRI	WG_CKRI	sediment	0.4um	cox1	2x250
+EB134	Waigeo	WGO_01	Sawandarek	SAWA	WG_SAWA	sediment	0.4um	cox1	2x250
+EB135	Waigeo	WGO_10	Arborek	ARBO	WG_ARBO	water	0.4um	cox1	2x250
+EB136	Waigeo	WGO_12	Piaynemo	PIAY	WG_PIAY	sediment	0.4um	cox1	2x250
+EB137	Waigeo	WGO_13	Paniki Besar Island	PANI	WG_PANI	sediment	0.4um	cox1	2x250
+EB138	Waigeo	WGO_14	Gof Island	GGOF	WG_GGOF	sediment	0.4um	cox1	2x250
+EB139	Waigeo	WGO_16	Yansawai	YANS	WG_YANS	sediment	0.4um	cox1	2x250
+EB140	Waigeo	WGO_17	Arefi	AREF	WG_AREF	sediment	0.4um	cox1	2x250
+EB141	Waigeo	WGO_18	Saonek	SAON	WG_SAON	sediment	0.4um	cox1	2x250
+EB142	Waigeo	WGO_19	Timindores	TIMI	WG_TIMI	sediment	0.4um	cox1	2x250
+EB143	Wakatobi	WK_03	Kapota 2	KAP2	WK_KAP2	water	0.4um	cox1	2x250
+EB144	Wakatobi	WK_04	Komponaone	KOMP	WK_KOMP	water	0.4um	cox1	2x250
+EB145	Wakatobi	WK_05	Karang Kapota 1	KKA1	WK_KKA1	water	0.4um	cox1	2x250
+EB146	Wakatobi	WK_06	Karang Kapota 2	KKA2	WK_KKA2	water	0.4um	cox1	2x250
+EB147	Wakatobi	WK_08	Fan Garden	FAGA	WK_FAGA	water	0.4um	cox1	2x250
+EB148	Wakatobi	WK_09	Belanda Port	BELA	WK_BELA	water	0.4um	cox1	2x250
+EB149	Wakatobi	WK_11	Tomia Atoll 2	TOA2	WK_TOA2	water	0.4um	cox1	2x250
+EB150	Wakatobi	WK_12	Kaledupa Atoll 1	KAL1	WK_KAL1	water	0.4um	cox1	2x250
+EB151	Wakatobi	WK_15	Kaledupa Atoll 4	KAL4	WK_KAL4	water	0.4um	cox1	2x250
+EB152	Wakatobi	WK_16	Beropa	BERO	WK_BERO	water	0.4um	cox1	2x250
+EB153	Wakatobi	WK_03	Kapota 2	KAP2	WK_KAP2	sediment	0.4um	cox1	2x250
+EB154	Wakatobi	WK_04	Komponaone	KOMP	WK_KOMP	sediment	0.4um	cox1	2x250
+EB155	Wakatobi	WK_05	Karang Kapota 1	KKA1	WK_KKA1	sediment	0.4um	cox1	2x250
+EB156	Wakatobi	WK_06	Karang Kapota 2	KKA2	WK_KKA2	sediment	0.4um	cox1	2x250
+EB157	Wakatobi	WK_08	Fan Garden	FAGA	WK_FAGA	sediment	0.4um	cox1	2x250
+EB158	Wakatobi	WK_09	Belanda Port	BELA	WK_BELA	sediment	0.4um	cox1	2x250
+EB159	Wakatobi	WK_11	Tomia Atoll 2	TOA2	WK_TOA2	sediment	0.4um	cox1	2x250
+EB160	Wakatobi	WK_12	Kaledupa Atoll 1	KAL1	WK_KAL1	sediment	0.4um	cox1	2x250
+EB161	Wakatobi	WK_15	Kaledupa Atoll 4	KAL4	WK_KAL4	sediment	0.4um	cox1	2x250
+EB162	Wakatobi	WK_16	Beropa	BERO	WK_BERO	sediment	0.4um	cox1	2x250
+EB163	Wakatobi	WK_18	Langgira	LANG	WK_LANG	water	0.4um	cox1	2x250
+EB164	Wakatobi	WK_18	Langgira	LANG	WK_LANG	sediment	0.4um	cox1	2x250
+EB165	Wakatobi	WK_20	Furake	FURA	WK_FURA	water	0.4um	cox1	2x250
+EB166	Wakatobi	WK_20	Furake	FURA	WK_FURA	sediment	0.4um	cox1	2x250
+EB167	Lombok	LBK_01	Gili Sulat 1	GSU1	LB_GSU1	water	0.4um	cox1	2x250
+EB168	Lombok	LBK_01	Gili Sulat 1	GSU1	LB_GSU1	sediment	0.4um	cox1	2x250
+EB169	Lombok	LBK_02	Gili Sulat 2	GSU2	LB_GSU2	water	0.4um	cox1	2x250
+EB170	Lombok	LBK_02	Gili Sulat 2	GSU2	LB_GSU2	sediment	0.4um	cox1	2x250
+EB171	Lombok	LBK_03	Gili Sulat 3	GSU3	LB_GSU3	water	0.4um	cox1	2x250
+EB172	Lombok	LBK_03	Gili Sulat 3	GSU3	LB_GSU3	sediment	0.4um	cox1	2x250
+EB173	Lombok	LBK_04	Gili Lawang	GLAW	LB_GLAW	water	0.4um	cox1	2x250
+EB174	Lombok	LBK_04	Gili Lawang	GLAW	LB_GLAW	sediment	0.4um	cox1	2x250
+EB175	Lombok	LBK_05	Gili Petagan	GPET	LB_GPET	water	0.4um	cox1	2x250
+EB176	Lombok	LBK_05	Gili Petagan	GPET	LB_GPET	sediment	0.4um	cox1	2x250
+EB177	Lombok	LBK_06	Gili Kondo	GKON	LB_GKON	water	0.4um	cox1	2x250
+EB178	Lombok	LBK_06	Gili Kondo	GKON	LB_GKON	sediment	0.4um	cox1	2x250
+EB179	Lombok	LBK_07	Gili Nanggu	GNAN	LB_GNAN	water	0.4um	cox1	2x250
+EB180	Lombok	LBK_07	Gili Nanggu	GNAN	LB_GNAN	sediment	0.4um	cox1	2x250
+EB181	Lombok	LBK_08	Bunutan	BUNU	LB_BUNU	water	0.4um	cox1	2x250
+EB182	Lombok	LBK_08	Bunutan	BUNU	LB_BUNU	sediment	0.4um	cox1	2x250
+EB183	Lombok	LBK_09	Kampung Bunutan	KABU	LB_KABU	water	0.4um	cox1	2x250
+EB184	Lombok	LBK_09	Kampung Bunutan	KABU	LB_KABU	sediment	0.4um	cox1	2x250
+EB185	Lombok	LBK_10	Gili Rengit	GREN	LB_GREN	water	0.4um	cox1	2x250
+EB186	Lombok	LBK_10	Gili Rengit	GREN	LB_GREN	sediment	0.4um	cox1	2x250
+EB187	Lombok	LBK_11	Gili Goleg	GGOL	LB_GGOL	water	0.4um	cox1	2x250
+EB188	Lombok	LBK_11	Gili Goleg	GGOL	LB_GGOL	sediment	0.4um	cox1	2x250
+EB189	Lombok	LBK_12	Gili Gede	GIGE	LB_GIGE	water	0.4um	cox1	2x250
+EB190	Lombok	LBK_12	Gili Gede	GIGE	LB_GIGE	sediment	0.4um	cox1	2x250
+EB191	Lombok	LBK_13	Trawangan 1	TRA1	LB_TRA1	water	0.4um	cox1	2x250
+EB192	Lombok	LBK_13	Trawangan 1	TRA1	LB_TRA1	sediment	0.4um	cox1	2x250
+EB193	Lombok	LBK_14	Trawangan 2	TRA2	LB_TRA2	water	0.4um	cox1	2x250
+EB194	Lombok	LBK_14	Trawangan 2	TRA2	LB_TRA2	sediment	0.4um	cox1	2x250
+EB801	Waigeo	WGO_01	Sawandarek	SAWA	WG_SAWA	water	0.4um	cox1	2x250
+EB802	Waigeo	WGO_01	Sawandarek	SAWA	WG_SAWA	sediment	0.4um	cox1	2x250
+EB803	Waigeo	WGO_05	Yenbuba 1	YEB1	WG_YEB1	water	0.4um	cox1	2x250
+EB804	Waigeo	WGO_06	Miskoon	MISK	WG_MISK	water	0.4um	cox1	2x250
+EB805	Waigeo	WGO_06	Miskoon	MISK	WG_MISK	sediment	0.4um	cox1	2x250
+EB806	Waigeo	WGO_07	Friwen Wall	FRIW	WG_FRIW	water	0.4um	cox1	2x250
+EB807	Waigeo	WGO_10	Arborek	ARBO	WG_ARBO	sediment	0.4um	cox1	2x250
+EB808	Waigeo	WGO_14	Gof Island	GGOF	WG_GGOF	water	0.4um	cox1	2x250
+EB809	Waigeo	WGO_16	Yansawai	YANS	WG_YANS	water	0.4um	cox1	2x250
+EB810	Waigeo	WGO_17	Arefi	AREF	WG_AREF	water	0.4um	cox1	2x250
+EB811	Waigeo	WGO_19	Timindores	TIMI	WG_TIMI	water	0.4um	cox1	2x250
+EB812	Waigeo	WGO_10	Arborek	ARBO	WG_ARBO	water	12um	cox1	2x250
+EB813	Waigeo	WGO_11	Ruvas	RUVA	WG_RUVA	water	0.4um	cox1	2x250
+EB814	Waigeo	WGO_11	Ruvas	RUVA	WG_RUVA	sediment	0.4um	cox1	2x250
+EB815	Waigeo	WGO_12	Piaynemo	PIAY	WG_PIAY	water	0.4um	cox1	2x250
+EB816	Waigeo	WGO_13	Paniki Besar Island	PANI	WG_PANI	water	0.4um	cox1	2x250
+EB817	Waigeo	WGO_17	Arefi	AREF	WG_AREF	water	12um	cox1	2x250
+EB818	Waigeo	WGO_02	Yenbuba	YEBB	WG_YEBB	water	0.4um	cox1	2x250
+EB819	Waigeo	WGO_02	Yenbuba	YEBB	WG_YEBB	sediment	0.4um	cox1	2x250
+EB820	Waigeo	WGO_03	Yenwapnor	YENW	WG_YENW	water	0.4um	cox1	2x250
+EB821	Waigeo	WGO_04	Friwen	FRIN	WG_FRIN	sediment	0.4um	cox1	2x250
+EB822	Waigeo	WGO_05	Yenbuba 1	YEB1	WG_YEB1	sediment	0.4um	cox1	2x250
+EB823	Waigeo	WGO_07	Friwen Wall	FRIW	WG_FRIW	sediment	0.4um	cox1	2x250
+EB824	Waigeo	WGO_08	Yenbeser	YENB	WG_YENB	sediment	0.4um	cox1	2x250
+EB825	Waigeo	WGO_09	Cape Kri	CKRI	WG_CKRI	sediment	0.4um	cox1	2x250
+EB826	Waigeo	WGO_01	Sawandarek	SAWA	WG_SAWA	sediment	0.4um	cox1	2x250
+EB827	Waigeo	WGO_12	Piaynemo	PIAY	WG_PIAY	sediment	0.4um	cox1	2x250
+EB828	Wakatobi	WK_05	Karang Kapota 1	KKA1	WK_KKA1	water	0.4um	cox1	2x250
+EB829	Misool	MIS_01	Barracuda Rock	BARR	MI_BARR	water	0.4um	cox1	2x250
+EB830	Misool	MIS_01	Barracuda Rock	BARR	MI_BARR	sediment	0.4um	cox1	2x250
+EB831	Misool	MIS_02	Wayil Batan North	WABN	MI_WABN	water	0.4um	cox1	2x250
+EB832	Misool	MIS_02	Wayil Batan North	WABN	MI_WABN	sediment	0.4um	cox1	2x250
+EB833	Misool	MIS_03	Bantan East	BAEA	MI_BAEA	water	0.4um	cox1	2x250
+EB834	Misool	MIS_03	Bantan East	BAEA	MI_BAEA	sediment	0.4um	cox1	2x250
+EB835	Misool	MIS_04	Whale Rock Small	WRSM	MI_WRSM	water	0.4um	cox1	2x250
+EB836	Misool	MIS_04	Whale Rock Small	WRSM	MI_WRSM	sediment	0.4um	cox1	2x250
+EB837	Misool	MIS_05	Warakareket East	WKES	MI_WKES	water	0.4um	cox1	2x250
+EB838	Misool	MIS_05	Warakareket East	WKES	MI_WKES	sediment	0.4um	cox1	2x250
+EB839	Misool	MIS_06	Boo East	BOOE	MI_BOOE	water	0.4um	cox1	2x250
+EB840	Misool	MIS_06	Boo East	BOOE	MI_BOOE	sediment	0.4um	cox1	2x250
+EB841	Misool	MIS_07	Yilliet	YILL	MI_YILL	water	0.4um	cox1	2x250
+EB842	Misool	MIS_07	Yilliet	YILL	MI_YILL	sediment	0.4um	cox1	2x250
+EB843	Misool	MIS_08	Femin East	FEME	MI_FEME	water	0.4um	cox1	2x250
+EB844	Misool	MIS_08	Femin East	FEME	MI_FEME	sediment	0.4um	cox1	2x250
+EB845	Misool	MIS_09	Pele Goa West	PGOW	MI_PGOW	water	0.4um	cox1	2x250
+EB846	Misool	MIS_09	Pele Goa West	PGOW	MI_PGOW	sediment	0.4um	cox1	2x250
+EB847	Misool	MIS_10	Pele North	PELN	MI_PELN	water	0.4um	cox1	2x250
+EB848	Misool	MIS_10	Pele North	PELN	MI_PELN	sediment	0.4um	cox1	2x250
+EB849	Misool	MIS_11	Netted Corner	NECO	MI_NECO	water	0.4um	cox1	2x250
+EB850	Misool	MIS_11	Netted Corner	NECO	MI_NECO	sediment	0.4um	cox1	2x250
+EB851	Misool	MIS_12	Waaf South	WAFS	MI_WAFS	water	0.4um	cox1	2x250
+EB852	Misool	MIS_12	Waaf South	WAFS	MI_WAFS	sediment	0.4um	cox1	2x250
+EB853	Misool	MIS_13	Facet North	FACN	MI_FACN	water	0.4um	cox1	2x250
+EB854	Misool	MIS_13	Facet North	FACN	MI_FACN	sediment	0.4um	cox1	2x250
+EB855	Misool	MIS_14	Turtle Island	TUIS	MI_TUIS	water	0.4um	cox1	2x250
+EB856	Misool	MIS_14	Turtle Island	TUIS	MI_TUIS	sediment	0.4um	cox1	2x250
+EB857	Misool	MIS_15	Yenkafal West	YEKW	MI_YEKW	water	0.4um	cox1	2x250
+EB858	Misool	MIS_15	Yenkafal West	YEKW	MI_YEKW	sediment	0.4um	cox1	2x250
+EB859	Misool	MIS_16	Wagwaf West	WAGW	MI_WAGW	water	0.4um	cox1	2x250
+EB860	Misool	MIS_16	Wagwaf West	WAGW	MI_WAGW	sediment	0.4um	cox1	2x250
+EB861	Misool	MIS_17	Balbulol North	BALN	MI_BALN	water	0.4um	cox1	2x250
+EB862	Misool	MIS_17	Balbulol North	BALN	MI_BALN	sediment	0.4um	cox1	2x250
+EB863	Misool	MIS_18	Two Tree Island	TWTI	MI_TWTI	water	0.4um	cox1	2x250
+EB864	Misool	MIS_18	Two Tree Island	TWTI	MI_TWTI	sediment	0.4um	cox1	2x250
+EB865	Misool	MIS_19	Ef Pian	EFPI	MI_EFPI	water	0.4um	cox1	2x250
+EB866	Misool	MIS_19	Ef Pian	EFPI	MI_EFPI	sediment	0.4um	cox1	2x250
+EB867	Misool	MIS_20	Daram Point	DARP	MI_DARP	water	0.4um	cox1	2x250
+EB868	Misool	MIS_20	Daram Point	DARP	MI_DARP	sediment	0.4um	cox1	2x250
+EB869	Misool	MIS_21	Daram South	DARS	MI_DARS	water	0.4um	cox1	2x250
+EB870	Misool	MIS_21	Daram South	DARS	MI_DARS	sediment	0.4um	cox1	2x250
+EB871	Misool	MIS_22	Colorful	CLRF	MI_CLRF	water	0.4um	cox1	2x250
+EB872	Misool	MIS_22	Colorful	CLRF	MI_CLRF	sediment	0.4um	cox1	2x250
